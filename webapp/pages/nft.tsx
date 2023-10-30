@@ -22,6 +22,8 @@ const generateTradeInstrumentURL = () => {
 
 }
 
+const bannerURI = "./images/trade3.webp";
+
 const NFT: NextPage = () => {
   const {walletAddress, signingClient, coreumQueryClient} = useSigningClient()
   const [loading, setLoading] = useState(false)
@@ -98,6 +100,22 @@ const NFT: NextPage = () => {
       issuer: walletAddress,
       symbol: nftClassSymbol,
       description: nftClassDescription,
+     })]).then((passed) => {
+      setClassCreated(passed)
+    })
+  }
+
+
+  const createNFTClassWithRestrictions = () => {
+    setError('')
+    setLoading(true)
+
+    sendTx([AssetNFTTx.MsgIssueClass({
+      issuer: walletAddress,
+      symbol: nftClassSymbol,
+      description: nftClassDescription,
+               // burning=0, freezing=1, whitelisting=2, disable_sending=3
+      features: [0,1,2,3]
     })]).then((passed) => {
       setClassCreated(passed)
     })
@@ -143,6 +161,7 @@ const NFT: NextPage = () => {
       id: `tradeInstrument-${Date.now()}`,
       uri: tradeInstrumentURI,
       uriHash: sha256.create().update(tradeInstrumentURI).hex()
+      
     })]).then((passed) => {
       if (passed) {
         queryNFTs()
@@ -195,11 +214,23 @@ const NFT: NextPage = () => {
         </div>
       )}
       {transferID == "" && !classCreated && (
-        <div>
-          <h1 className="text-3xl font-bold my-8">
+        <div className="h-full bg-blue-300" >
+
+                   <div className="ml-8 items-center">
+              
+                      <img className="rounded-full object-cover h-48 w-48 items-center" src={bannerURI} alt=""/>
+                            <h3 className=" text-6xl text-red-600 font-bold">
+                               TradeInclusive
+                            </h3>
+              
+                  </div>
+
+                    <br></br>
+
+          <h1 className="text-3xl text-blue-500 font-bold my-8">
             Create your {nftClassSymbol} NFT class
           </h1>
-          <div className="flex w-full max-w-xl">
+          <div className="flex  w-full max-w-xl">
             <input
               type="text"
               id="description"
@@ -214,6 +245,14 @@ const NFT: NextPage = () => {
             >
               Create
             </button>
+
+            <button
+              className="mt-4 md:mt-0 btn btn-primary btn-lg font-semibold hover:text-base-100 text-2xl rounded-full flex-grow"
+              onClick={createNFTClassWithRestrictions}
+            >
+              CreateWithRestrictions
+            </button>
+
           </div>
 
         </div>
@@ -221,10 +260,18 @@ const NFT: NextPage = () => {
       )}
       {transferID == "" && classCreated && (
         <div>
-          <h1 className="text-3xl font-bold py-4">
-            Welcome to your {nftClassSymbol} collection!
+
+                    <div className="ml-8 items-center">
+                            <img className="rounded-full object-cover h-48 w-48 items-center" src={bannerURI} alt=""/>
+                            <h3 className=" text-6xl text-red-600 font-bold">
+                              TradeInclusive
+                            </h3>
+                     </div>
+
+          <h1 className="text-3xl font-bold py-4 text-blue-500" >
+             {nftClassSymbol} collection
           </h1>
-          <h1 className="text-m italic pb-4">
+          <h1 className="text-m italic pb-4 text-blue-500">
             {nftClassDescription}
           </h1>
           <div className="grid grid-flow-col auto-cols-max">
@@ -283,6 +330,17 @@ const NFT: NextPage = () => {
         </div>)}
       {transferID != "" && classCreated && (
         <div>
+                <h1 className=" text-6xl text-red-600 font-bold">
+                    Welcome to TradeInclusive
+                  </h1>
+
+                  <br></br>
+
+                  <div className="ml-8 items-center">
+                          <img className="rounded-full object-cover h-48 w-48" src={bannerURI} alt=""/>
+                  </div>
+
+
           <h1 className="text-3xl font-bold py-4">
             Transfer {transferID} NFT ownership.
           </h1>
@@ -312,7 +370,8 @@ const NFT: NextPage = () => {
               </button>
             </div>
           </div>
-        </div>)}
+
+        </div>     )}
     </WalletLoader>
   )
 }

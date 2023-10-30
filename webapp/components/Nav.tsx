@@ -17,7 +17,7 @@ function Nav() {
   const PUBLIC_SITE_ICON_URL = process.env.NEXT_PUBLIC_SITE_ICON_URL || ''
 
   return (
-    <div className="border-b w-screen px-2 md:px-16">
+    <div className=" border-b w-screen px-2 md:px-16">
       <nav
         className="flex flex-wrap text-center md:text-left md:flex flex-row w-full justify-between items-center py-4 ">
         <div className="flex items-center">
