@@ -1,0 +1,101 @@
+{
+  "transportDocumentTypeCode": "SWB",
+  "isShippedOnBoardType": true,
+  "numberOfCopies": 0,
+  "numberOfOriginals": 3,
+  "isElectronic": true,
+  "isToOrder": false,
+  "areChargesDisplayedOnOriginals": true,
+  "areChargesDisplayedOnCopies": true,
+  "displayedNameForPlaceOfReceipt": "Hunan",
+  "displayedCodeForPortOfLoad": "CNGGZ",
+  "displayedCodeForPortOfDischarge": "USGLB",
+  "displayedNameForPlaceOfDelivery": "Pheonix",
+  "carrierBookingReference": "BK20002",
+  "placeOfIssue": {
+      "locationName": "Rotterdam",
+      "UNLocationCode": "NLRTM"
+  },
+  "consignmentItems": [
+      {
+          "weight": 11000,
+          "volume": 18,
+          "weightUnit": "KGM",
+          "volumeUnit": "MTQ",
+          "descriptionOfGoods": "High strength steel furniture",
+    "declaredValue":"200000.00" ,
+          "HSCode": "411510",
+          "cargoItems": [
+              {
+                  "equipmentReference": "APZU4812090",
+                  "weight": 10000,
+                  "volume": 18,
+                  "weightUnit": "KGM",
+                  "volumeUnit": "MTQ",
+                  "numberOfPackages": 18,
+                  "packageCode": "A12"
+              }
+          ]
+      }
+  ],
+  "utilizedTransportEquipments": [
+      {
+          "equipment": {
+              "equipmentReference": "APZU4812090",
+              "ISOEquipmentCode": "22G1",
+              "tareWeight": 12000,
+              "weightUnit": "KGM"
+          },
+          "cargoGrossWeightUnit": "KGM",
+          "cargoGrossWeight": 12000,
+          "isShipperOwned": true,
+          "seals": [
+              {
+                  "sealNumber": "1111",
+                  "sealSource": "CUS",
+                  "sealType": "WIR"
+              }
+          ]
+      }
+  ],
+  "documentParties": [
+      {
+          "party": {
+              "partyName": "IMP1001",
+              "taxReference1": "CVR-25645774",
+              "publicKey": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFzaW",
+              "address": {
+                  "name": "IMP1001",
+                  "street": "Industrial Blvd",
+                  "streetNumber": "22",
+                  "postCode": "20305",
+                  "city": "Pheonix",
+                  "stateRegion": "AZ",
+                  "country": "USA"
+              },
+              "notifypartyContactDetails": [
+                  {
+                      "name": "Henrik-Exp-Agent",
+                      "phone": "+45 33364660",
+                      "email": "info@dcsa.org",
+                      "url": "https://www.dcsa.org"
+                  }
+              ],
+              "identifyingCodes": [
+                  {
+                      "DCSAResponsibleAgencyCode": "SMDG",
+                      "partyCode": "MSK",
+                      "codeListName": "LCL"
+                  }
+              ]
+          },
+          "isToBeNotified": true
+      }
+  ],
+  "references": [
+      {
+          "referenceType": "FF",
+          "referenceValue": "zzz"
+      }
+  ]
+}

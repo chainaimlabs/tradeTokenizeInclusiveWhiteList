@@ -1,0 +1,42 @@
+{
+  "version": "1.4",
+  "doc_type": "freight_invoice_json",
+  "invoices": [
+      {
+          "created_by": "EXP101",
+          "bill_to_name": "IMP1001",
+          "due_date": "2023-11-26T00:00:00.000Z",
+          "invoice_number": "INV10001",
+          "issued_date": "2023-10-26T00:00:00.000Z",
+          "payment_term_days": 30,
+          "payment_terms": "NET30",
+          "remit_to_name": "EXP101",
+          "shipments": [
+              {
+                  "arrival_port": {
+                      "unlocode": "USLGB",
+                      "description": "Long Beach, US"
+                  },
+                  "container_number": "APZU4812090 ",
+                  "description_of_goods": " ",
+                  "consignee": "IMP1001",
+                  "consignor": "EXP101",
+                  "forwarder_scac": "ABCD",
+                  "lading_port": {
+                      "unlocode": "CNGGZ",
+                      "description": "Guangzhou, CN"
+                  },
+                  "master_bill": "BL10001",
+                  "sent_date": "2018-11-26T01:07:34.000Z",
+                  "departure_estimated": "2018-01-11T00:00:00Z",
+                  "departure_actual": "2018-01-11T14:23:18Z",
+                  "freight_payment_terms": "opentrade",
+                  "vessel_name": "APZU",
+                  "voyage_number": "48E",
+                  "bill_of_lading_type": "Straight"
+              }
+          ],
+          "total_due": 200240.59
+      }
+  ]
+}

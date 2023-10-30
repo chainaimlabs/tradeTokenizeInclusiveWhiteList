@@ -1,0 +1,588 @@
+[
+  {
+    "SegmentDelimiter": "~",
+    "DataElementDelimiter": "*",
+    "ISA": {
+      "AuthorizationInformationQualifier_1": "00",
+      "AuthorizationInformation_2": "          ",
+      "SecurityInformationQualifier_3": "00",
+      "SecurityInformation_4": "          ",
+      "SenderIDQualifier_5": "ZZ",
+      "InterchangeSenderID_6": "SHPT           ",
+      "ReceiverIDQualifier_7": "ZZ",
+      "InterchangeReceiverID_8": "WWALLIANCE     ",
+      "InterchangeDate_9": "150217",
+      "InterchangeTime_10": "2117",
+      "InterchangeControlStandardsIdentifier_11": "U",
+      "InterchangeControlVersionNumber_12": "00400",
+      "InterchangeControlNumber_13": "001043178",
+      "AcknowledgementRequested_14": "0",
+      "UsageIndicator_15": "P",
+      "ComponentElementSeparator_16": ">"
+    },
+    "Groups": [
+      {
+        "GS": {
+          "CodeIdentifyingInformationType_1": "SO",
+          "SenderIDCode_2": "SHPT",
+          "ReceiverIDCode_3": "WWALLIANCE",
+          "Date_4": "20150217",
+          "Time_5": "2117",
+          "GroupControlNumber_6": "001043178",
+          "TransactionTypeCode_7": "X",
+          "VersionAndRelease_8": "004010"
+        },
+        "Transactions": [
+          {
+            "ST": {
+              "TransactionSetIdentifierCode_01": "304",
+              "TransactionSetControlNumber_02": "0001"
+            },
+            "B2": {
+              "TariffServiceCode_01": "PP",
+              "StandardCarrierAlphaCode_02": "EGLV",
+              "ShipmentIdentificationNumber_04": "541446502",
+              "WeightUnitCode_05": "K",
+              "ShipmentMethodofPayment_06": "CC",
+              "ShipmentQualifier_07": "2"
+            },
+            "B2A": {
+              "TransactionSetPurposeCode_01": "00"
+            },
+            "N9": [
+              {
+                "ReferenceIdentificationQualifier_01": "BN",
+                "ReferenceIdentification_02": "541446502"
+              },
+              {
+                "ReferenceIdentificationQualifier_01": "CT",
+                "ReferenceIdentification_02": "55973"
+              },
+              {
+                "ReferenceIdentificationQualifier_01": "SI",
+                "ReferenceIdentification_02": "1502074098"
+              },
+              {
+                "ReferenceIdentificationQualifier_01": "RF",
+                "ReferenceIdentification_02": "1502074098"
+              }
+            ],
+            "V1": [
+              {
+                "VesselName_02": "EVER DECENT",
+                "FlightVoyageNumber_04": "0676-098W"
+              }
+            ],
+            "N1Loop": [
+              {
+                "N1": {
+                  "EntityIdentifierCode_01": "CA",
+                  "IdentificationCodeQualifier_03": "93",
+                  "IdentificationCode_04": "EGLV"
+                }
+              },
+              {
+                "N1": {
+                  "EntityIdentifierCode_01": "CN",
+                  "Name_02": "PCS CENTRAL AMERICA S.A.(COSTA RICA)"
+                },
+                "N2": [
+                  {
+                    "Name_01": "CENTRO COMMERCIAL AQUARIUM, LOCAL 1",
+                    "Name_02": "3 SEGUNDO NIVEL"
+                  },
+                  {
+                    "Name_01": "SAN JOSE - ESCAZU  COSTA RICA"
+                  }
+                ]
+              },
+              {
+                "N1": {
+                  "EntityIdentifierCode_01": "R6",
+                  "Name_02": "SHIPCO TRANSPORT INC.",
+                  "IdentificationCodeQualifier_03": "93",
+                  "IdentificationCode_04": "SHIPCOUSHOU01"
+                },
+                "G61": [
+                  {
+                    "ContactFunctionCode_01": "IC",
+                    "Name_02": "housf",
+                    "CommunicationNumberQualifier_03": "EM",
+                    "CommunicationNumber_04": "hou.exp.fcl.docs@shipco.com"
+                  }
+                ]
+              },
+              {
+                "N1": {
+                  "EntityIdentifierCode_01": "SH",
+                  "Name_02": "SHIPCO TRANSPORT INC. (HOU)"
+                },
+                "N2": [
+                  {
+                    "Name_01": "1235 NORTH LOOP WEST, SUITE 450",
+                    "Name_02": "TAX ID: 13-3468377"
+                  },
+                  {
+                    "Name_01": "HOUSTON TX 77008"
+                  }
+                ]
+              },
+              {
+                "N1": {
+                  "EntityIdentifierCode_01": "N1",
+                  "Name_02": "SAME AS CONSIGNEE"
+                },
+                "N2": [
+                  {
+                    "Name_01": "506 2201 5336",
+                    "Name_02": "506 2201 5323"
+                  }
+                ]
+              }
+            ],
+            "R4Loop": [
+              {
+                "R4": {
+                  "PortorTerminalFunctionCode_01": "R",
+                  "LocationQualifier_02": "UN",
+                  "LocationIdentifier_03": "USCHI",
+                  "PortName_04": "CHICAGO,IL",
+                  "CountryCode_05": "US"
+                }
+              },
+              {
+                "R4": {
+                  "PortorTerminalFunctionCode_01": "J",
+                  "LocationQualifier_02": "UN",
+                  "LocationIdentifier_03": "USORF",
+                  "PortName_04": "NORFOLK,VA",
+                  "CountryCode_05": "US"
+                }
+              },
+              {
+                "R4": {
+                  "PortorTerminalFunctionCode_01": "K",
+                  "LocationQualifier_02": "UN",
+                  "LocationIdentifier_03": "CRLIO",
+                  "PortName_04": "PUERTO LIMON",
+                  "CountryCode_05": "CR"
+                }
+              },
+              {
+                "R4": {
+                  "PortorTerminalFunctionCode_01": "E",
+                  "LocationQualifier_02": "UN",
+                  "LocationIdentifier_03": "CRLIO",
+                  "PortName_04": "PUERTO LIMON",
+                  "CountryCode_05": "CR"
+                }
+              }
+            ],
+            "R22": [
+              {
+                "StandardCarrierAlphaCode_01": "EGLV",
+                "RoutingSequenceCode_02": "O",
+                "TypeofServiceCode_12": "HH"
+              }
+            ],
+            "C8Loop": [
+              {
+                "C8": {
+                  "CertificationClauseText_03": "DDC/CSC COLLECT "
+                }
+              },
+              {
+                "C8": {
+                  "CertificationClauseText_03": "EXPRESS BILL OF LADING "
+                }
+              },
+              {
+                "C8": {
+                  "CertificationClauseText_03": "FREIGHT INVOICES SHOULD GO TO : "
+                }
+              },
+              {
+                "C8": {
+                  "CertificationClauseText_03": "BRC.VENDORINVOICE.AM@SHIPCO.COM  "
+                }
+              }
+            ],
+            "LXLoop": [
+              {
+                "LX": {
+                  "AssignedNumber_01": "1"
+                },
+                "N7Loop": [
+                  {
+                    "N7": {
+                      "EquipmentInitial_01": "EISU",
+                      "EquipmentNumber_02": "941280",
+                      "Weight_03": "6122.000",
+                      "WeightQualifier_04": "G",
+                      "Volume_08": "61.210",
+                      "VolumeUnitQualifier_09": "X",
+                      "WeightUnitCode_17": "K",
+                      "EquipmentNumberCheckDigit_18": "0",
+                      "EquipmentType_22": "45G0"
+                    },
+                    "M7": [
+                      {
+                        "SealNumber_01": "1444601"
+                      }
+                    ]
+                  }
+                ],
+                "L0Loop": [
+                  {
+                    "L0": {
+                      "LadingLineItemNumber_01": "1",
+                      "Weight_04": "6122.000",
+                      "WeightQualifier_05": "G",
+                      "Volume_06": "61.210",
+                      "VolumeUnitQualifier_07": "X",
+                      "LadingQuantity_08": "8",
+                      "PackagingFormCode_09": "PCS",
+                      "DunnageDescription_10": "Pieces",
+                      "WeightUnitCode_11": "K"
+                    },
+                    "L5": [
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "X40'HC SLAC: 8 SKIDS",
+                        "MarksandNumbers_06": "EISU9412800"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "KIT, SHELTER, METAL, MODULAR,",
+                        "MarksandNumbers_06": "SEAL#1444601"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "PANELIZED, PALLETIZED, COMPONENTS"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "1 SKID 907 KG 8.065 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "1 SKID 680 KG 6.956 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "1 SKID 907 KG 7.794 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "1 SKID 794 KG 8.099 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "1 SKID 907 KG 7.964 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "1 SKID 680 KG 7.477 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "1 SKID 680 KG 7.684 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "1 SKID 567 KG 7.171 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "X40'HC SLAC: 8 SKIDS",
+                        "MarksandNumbers_06": "EITU1104765"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "KIT, SHELTER, METAL, MODULAR,",
+                        "MarksandNumbers_06": "SEAL#1444503"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "PANELIZED, PALLETIZED, COMPONENTS"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "1 SKID 907 KG 8.065 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "1 SKID 680 KG 7.828 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "1 SKID 680 KG 6.956 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "1 SKID 680 KG 6.956 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "1 SKID 907 KG 8.099 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "1 SKID 794 KG 8.099 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "1 SKID 794 KG 8.133 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "1 SKID 680 KG 7.355 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "ITN # X20150212349209"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "S/C: 55973"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "DDC/CSC COLLECT"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "EXPRESS BILL OF LADING"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "DDC/CSC COLLECT EXPRESS BILL OF LADING FREIGHT"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "INVOICES SHOULD GO TO :"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "1",
+                        "LadingDescription_02": "BRC.VENDORINVOICE.AM@SHIPCO.COM "
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "LX": {
+                  "AssignedNumber_01": "2"
+                },
+                "N7Loop": [
+                  {
+                    "N7": {
+                      "EquipmentInitial_01": "EITU",
+                      "EquipmentNumber_02": "110476",
+                      "Weight_03": "6122.000",
+                      "WeightQualifier_04": "G",
+                      "Volume_08": "61.210",
+                      "VolumeUnitQualifier_09": "X",
+                      "WeightUnitCode_17": "K",
+                      "EquipmentNumberCheckDigit_18": "5",
+                      "EquipmentType_22": "45G0"
+                    },
+                    "M7": [
+                      {
+                        "SealNumber_01": "1444503"
+                      }
+                    ]
+                  }
+                ],
+                "L0Loop": [
+                  {
+                    "L0": {
+                      "LadingLineItemNumber_01": "2",
+                      "Weight_04": "6122.000",
+                      "WeightQualifier_05": "G",
+                      "Volume_06": "61.210",
+                      "VolumeUnitQualifier_07": "X",
+                      "LadingQuantity_08": "8",
+                      "PackagingFormCode_09": "PCS",
+                      "DunnageDescription_10": "Pieces",
+                      "WeightUnitCode_11": "K"
+                    },
+                    "L5": [
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "X40'HC SLAC: 8 SKIDS",
+                        "MarksandNumbers_06": "EISU9412800"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "KIT, SHELTER, METAL, MODULAR,",
+                        "MarksandNumbers_06": "SEAL#1444601"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "PANELIZED, PALLETIZED, COMPONENTS"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "1 SKID 907 KG 8.065 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "1 SKID 680 KG 6.956 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "1 SKID 907 KG 7.794 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "1 SKID 794 KG 8.099 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "1 SKID 907 KG 7.964 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "1 SKID 680 KG 7.477 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "1 SKID 680 KG 7.684 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "1 SKID 567 KG 7.171 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "X40'HC SLAC: 8 SKIDS",
+                        "MarksandNumbers_06": "EITU1104765"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "KIT, SHELTER, METAL, MODULAR,",
+                        "MarksandNumbers_06": "SEAL#1444503"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "PANELIZED, PALLETIZED, COMPONENTS"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "1 SKID 907 KG 8.065 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "1 SKID 680 KG 7.828 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "1 SKID 680 KG 6.956 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "1 SKID 680 KG 6.956 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "1 SKID 907 KG 8.099 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "1 SKID 794 KG 8.099 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "1 SKID 794 KG 8.133 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "1 SKID 680 KG 7.355 M3"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "ITN # X20150212349209"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "S/C: 55973"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "DDC/CSC COLLECT"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "EXPRESS BILL OF LADING"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "DDC/CSC COLLECT EXPRESS BILL OF LADING FREIGHT"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "INVOICES SHOULD GO TO :"
+                      },
+                      {
+                        "LadingLineItemNumber_01": "2",
+                        "LadingDescription_02": "BRC.VENDORINVOICE.AM@SHIPCO.COM "
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "L3Loop": {
+              "L3": {
+                "Weight_01": "12244",
+                "WeightQualifier_02": "G",
+                "Volume_09": "122.42",
+                "VolumeUnitQualifier_10": "X",
+                "LadingQuantity_11": "16",
+                "WeightUnitCode_12": "K"
+              },
+              "PWK": [
+                {
+                  "ReportTypeCode_01": "SW",
+                  "ReportCopiesNeeded_03": "1"
+                }
+              ],
+              "SACLoop": [
+                {
+                  "SAC": {
+                    "AllowanceorChargeIndicator_01": "C",
+                    "ServicePromotionAllowanceorChargeCode_02": "E890",
+                    "AllowanceorChargeMethodofHandlingCode_12": "CC"
+                  }
+                }
+              ]
+            },
+            "SE": {
+              "NumberofIncludedSegments_01": "98",
+              "TransactionSetControlNumber_02": "0001"
+            },
+            "Model": "EdiNation.X12.ASC.004010"
+          }
+        ],
+        "GETrailers": [
+          {
+            "NumberOfIncludedSets_1": "1",
+            "GroupControlNumber_2": "001043178"
+          }
+        ]
+      }
+    ],
+    "IEATrailers": [
+      {
+        "NumberOfIncludedGroups_1": "1",
+        "InterchangeControlNumber_2": "001043178"
+      }
+    ],
+    "Result": {
+      "LastIndex": 102,
+      "Details": [],
+      "Status": "success"
+    }
+  }
+]

@@ -1,0 +1,71 @@
+{
+	"NAMM_Invoice": {
+		"InvoiceHeader": {
+			"Id": "INV10001",
+			"Timestamp": "2023-10-26T08:34:00",
+			"SoldTo": {
+				"PartyId": "IMP1001",
+				"Name": "Pheonix Rooms"
+			},
+			"InvoiceId": "INV10001",
+			"InvoiceType": "C",
+			"Buyer": {
+				"PartyId": "IMP1001",
+				"Name": "Pheonix Rooms",
+				"Address": {
+					"Address1": "22 Industrial Blvd",
+					"City": "Pheonix",
+					"State": "AZ",
+					"PostalCode": "90040",
+					"Country": "United States",
+					"CountryCode": "US"
+				}
+			},
+			"RemitTo": {
+				"PartyId": "EXP101",
+				"Name": "SOUTH CHINA STEELS",
+				"Address": {
+					"Attn": "Accounts Receivable",
+					"Address1": "5100",
+					"City": "Gouanzho",
+					"State": "CA",
+					"Country": "China",
+					"CountryCode": "CN"
+				}
+			},
+			"TermsCode": "P014",
+			"TranspCode": "S001",
+			"InvoiceDate": "2023-10-26",
+			"InvoiceDueDate": "2023-11-26"
+		},
+		"InvoiceSummary": {
+			"TotalItemQty": "18",
+			"FreightTotal": "11000",
+			"MiscCharge": "0.00",
+			"InvoiceTotal": "20022.00",
+			"PONumber": "PO101"
+		},
+		"InvoiceDetail": {
+			"Items": {
+				"Item": {
+					"BuyerOrderId": "PO101",
+					"InvoiceLineNbr": "1",
+					"BuyerItemId": "Living Room Furniture",
+					"Qty": "18",
+					"QtyUOM": "MTQ",
+					"UCValue": "20022.00",
+					"UCCurrencyCode": "USD",
+					"SupplierItemId": "ST01",
+					"SupplierItemDesc": "High Grade Steel Furniture",
+					"PackListNbr": "345678",
+					"ShipmentId": "BL10001",
+					"ContainerId":"APZU4812090",
+					"DateShipped": "2008-01-15",
+					"BarCodeId": "761294008508",
+					"BarCodeType": "GTIN-12"
+				}
+			}
+		},
+		"_version": "2009.2"
+	}
+}
