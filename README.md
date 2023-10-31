@@ -35,15 +35,29 @@ https://www.youtube.com/watch?v=jY9gvpsp17c
 
 The preseentation deck is available at : [TradeInclusive Presentation Deck] (./artifacts) directory.
 
-The software architecture document, the PDF proposal , and specific XRP ledger features and code are avaialble at : (./artifacts) directory
+The software architecture document, the PDF proposal , and specific coreum features and code are avaialble at : (./artifacts) directory
 
-The profiles of the founders, their technical background in blockchains and trade policy consulting is avaialble at (./teamprofiles) directory
+The references from the test net transactions are also availalbe in the artifcacts directory
 
-
-TO RUN THE DEMO 
-
+The profiles of the team, the technical background in blockchains and domain expertise in trade, supplychains, payments,  policy consulting is avaialble at (./teamprofiles) directory
 
 
+TO RUN THE TRADE INCLUSIVE DEMO APP  , in your local machine please follow these steps.
+
+git clone the repository 
+
+run yarn install
+
+run yarn run from the webapp directory. 
+
+go to http://localhost:3000 to open the application. 
+
+For conntecting to the Coreum testnet via the kepler wallet , please follow the instructions in the following page. 
+https://docs.coreum.dev/tools-ecosystem/faucet.html
+
+For running the steps to configure the webapp please follow
+
+https://docs.coreum.dev/tutorials/web-app.html
 
 
 
